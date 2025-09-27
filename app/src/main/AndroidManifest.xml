@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PROG7312_POE_JACKD">
         <activity
+            android:name=".MySearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".TransportActivity"
             android:exported="false" />
         <activity

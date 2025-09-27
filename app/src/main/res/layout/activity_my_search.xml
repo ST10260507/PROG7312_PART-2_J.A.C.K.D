@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sky_blue"
+    tools:context=".MySearchActivity">
+
+    <TextView
+        android:id="@+id/mySearch"
+        android:layout_width="350dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/tantangkiwood_display"
+        android:text="MY SEARCH"
+        android:textColor="@color/black"
+        android:textSize="75sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="46dp" />
+
+    <ImageView
+        android:id="@+id/grass"
+        android:layout_width="433dp"
+        android:layout_height="824dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@+id/mySearch"
+        app:srcCompat="@drawable/redCar_restaurant_money"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-11dp" />
+
+    <ImageView
+        android:id="@+id/clouds"
+        android:layout_width="233dp"
+        android:layout_height="155dp"
+        app:layout_constraintTop_toBottomOf="@+id/mySearch"
+        app:srcCompat="@drawable/clouds"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="181dp" />
+
+    <ImageView
+        android:id="@+id/calendar"
+        android:layout_width="179dp"
+        android:layout_height="171dp"
+        app:layout_constraintTop_toBottomOf="@+id/clouds"
+        app:srcCompat="@drawable/calendar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/Menu"
+        android:layout_width="172dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/tantangkiwood_display"
+        android:text="MENU"
+        android:textColor="@color/black"
+        android:textSize="75sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="119dp" />
+
+    <ImageView
+        android:id="@+id/MenuList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/Menu"
+        app:srcCompat="@drawable/menu"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/My"
+        android:layout_width="84dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/tantangkiwood_display"
+        android:text="MY"
+        android:textColor="@color/black"
+        android:textSize="65sp"
+        app:layout_constraintTop_toTopOf="@+id/MenuList"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="174dp" />
+
+    <Button
+        android:id="@+id/SearchBtn"
+        android:layout_width="144dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="112dp"
+        android:fontFamily="@font/tantangkiwood_display"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:padding="0dp"
+        android:text="SEARCH"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:backgroundTint="@color/transparent"
+        app:layout_constraintTop_toTopOf="@+id/MenuList"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp" />
+
+    <Button
+        android:id="@+id/SuitcaseBtn"
+        android:layout_width="217dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="236dp"
+        android:fontFamily="@font/tantangkiwood_display"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:padding="0dp"
+        android:text="MY SUITCASE"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:backgroundTint="@color/transparent"
+        app:layout_constraintTop_toTopOf="@+id/MenuList"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="50dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
